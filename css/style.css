@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Quicksand:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../assets/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+        
+}
+body{
+    background-color: aquamarine;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    height: 4.375rem;
+    width: 100%;
+    background-color: lightblue;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px 5px 10px grey;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 1.5625rem;
+    align-items: center;
+    padding-right: 1.5625rem;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-family: Quicksand;
+}
+
+.navbar a:hover { 
+    color: white;
+}
+
+.navbar button {
+    padding: 10px;
+    border-radius: .625rem;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+    font-size: 14px;
+}
+
+
+header h1{
+    letter-spacing: 0.25rem;
+    padding: 20px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.TituloHero {
+    align-self: center;
+    font-family: quicksand;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 3rem;
+}
+
+h2{
+    text-align: center;
+    padding: 1.875rem;
+    font-family: Quicksand;
+    font-size: 2.5rem;
+    
+}
+
+.section2 h2{
+    background-color: lightblue;
+}
+
+.section2{
+    padding-top: 3.125rem;
+    
+}
+
+.section2 p{
+    padding-top: 1.875rem;
+}
+
+.app-img{
+    padding: 1.875rem;
+    display: flex;
+    justify-content: center;
+}
+
+.primerospasos{
+    display: grid;
+    grid-template: repeat(2, 28.125rem) / repeat(2,40%);
+    justify-content: center;
+}
+
+.paso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3{
+    padding: 1.25rem;
+    font-family: Quicksand;
+    font-size: 1.5625rem;
+}
+
+.primerospasos img {
+    padding: 1.25rem;
+}
+
+p{
+    font-family: Quicksand;
+    font-size: 24px;
+    text-align: center;
+}
+
+.marcas{
+    display: grid;
+    grid-template: repeat(3, 15.625rem) / repeat(3, 15.625rem);
+    justify-content: center;
+    padding: 1.5625rem;
+    align-items: center;
+    
+
+}
+
+.marcas div{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    
+}
+
+footer img{
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 3.125rem;
+}
+
+/**APLICO GRID EN LA PAGINA CONTACTO**/
+
+.grid-contact{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template: 1fr 9 fr 1 fr / repeat(3, 1fr);
+}
+
+/**.sectionTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header h1{
+    
+    letter-spacing: 0.25rem;
+    padding: 20px;   
+         
+}
+
+header h1 a{
+    text-decoration: none;
+    color: black;
+    font-family: Quicksand;
+    font-size: 2.5rem;
+    
+}
+
+.navbar {
+    list-style: none;
+    position: fixed;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.875rem;
+    padding-right: 1.875rem;
+    padding-top: 1.875rem;
+    align-items: center;
+}
+
+.navbar a {
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover { 
+    color: white;
+    
+  }
+
+.navbar button {
+    padding: 10px;
+    border-radius: .625rem;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+header h2 {
+    
+    
+    text-align: center;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+footer {
+    background-color: lightblue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 0;
+   
+}
+
+footer .redes a img{
+    height: 1.875rem;
+    width: 1.875rem;
+        
+}**/
+
+
+@media(max-width: 1024px) {
+    header {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .barra {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+
+    }
+
+    .navbar {
+        padding-bottom: .625rem;
+    }
+
+    .TituloHero {
+        font-size: 1.25rem;
+        margin-top: 4rem;
+
+
+    }
+
+    header {
+        height: 15.625rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .primerospasos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .marcas {
+        grid-template: repeat(3, 6.25rem) / repeat(2, 20rem);
+
+    }
+
+    .garmin img {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+    }
+
+    .navbar button {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .marcas {
+        grid-template: repeat(8, 6.25rem) / 1fr;
+    }
+
+}
+
+
+
