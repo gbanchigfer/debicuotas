@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Quicksand:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;500&family=Quicksand:wght@300;500&display=swap');
+
 
 *{
     margin: 0;
@@ -61,7 +63,7 @@ body{
 
 
 header h1{
-    letter-spacing: 0.25rem;
+    
     padding: 20px;
 }
 
@@ -72,10 +74,15 @@ header h1 a {
 
 .TituloHero {
     align-self: center;
-    font-family: quicksand;
+    font-family: Quicksand;
     font-weight: bold;
     font-size: 40px;
     padding-top: 3rem;
+}
+
+.hero{
+    font-family: Lobster;
+    font-size: 2.5rem;
 }
 
 h2{
@@ -176,6 +183,48 @@ footer a {
     padding: 3.125rem;
 }
 
+
+
+.comoEmpezar h3{
+    text-align: center;
+}
+
+.pasos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pasos button{
+    padding: 1.25rem;
+    background-color: lightblue;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 1.25rem;
+}
+.pasos button a{
+    text-decoration: none;
+    color: black;
+}
+
+.pasos button a:hover{
+    color: white;
+}
+
+.descarga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appTienda{
+    padding: .9375rem;    
+}
+
 /**APLICO GRID EN LA PAGINA CONTACTO**/
 
 .grid-contact{
@@ -184,6 +233,15 @@ footer a {
     height: 100vh;
     grid-template: 1fr 9 fr 1 fr / repeat(3, 1fr);
 }
+
+.ayuda{
+    background-color: lightblue;
+}
+
+.accordion {
+    padding: 1.25rem;
+}
+
 
 /**.sectionTop {
     display: flex;
