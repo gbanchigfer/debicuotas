@@ -321,12 +321,36 @@ footer .redes a img{
     width: 1.875rem;
         
 }**/
+.paso button{
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
 
+.paso button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
 
 @media(max-width: 1024px) {
     header {
         font-size: 12px;
+        
     }
+
+    
+
+    
+
+    
+    .accordion-item button{
+        
+        position: static;
+    }
+
+    
 
 }
 
@@ -369,6 +393,8 @@ footer .redes a img{
 
     }
 
+    
+
     .marcas {
         grid-template: repeat(3, 6.25rem) / repeat(2, 20rem);
 
@@ -382,10 +408,48 @@ footer .redes a img{
 }
 
 @media (max-width: 480px) {
+   
     .navbar {
+        
         display: flex;
         flex-direction: column;
-        font-size: 8px;
+        font-size: 10px;
+        
+        
+    }
+
+ 
+    .hero{
+        font-size: 20px;
+        
+    }
+
+    .barra{
+        position: absolute;
+    }
+     .paso img {
+    
+        max-width: 100%;
+        height: auto;
+        width: auto/9;
+            
+    
+    }
+
+    .TituloHero{
+        padding-top: 75%;
+    }
+
+    header{
+        height: 100vh;
+
+    }
+    
+            
+    main img{
+        max-width: 100%;
+        height: auto;
+        width: auto/9;
     }
 
     .navbar button {
@@ -396,6 +460,18 @@ footer .redes a img{
     .marcas {
         grid-template: repeat(8, 6.25rem) / 1fr;
     }
+
+    
+
+   
+
+    footer img{
+        max-width: 100%;
+        height: auto;
+        width: auto/9;
+    }
+
+    
 
 }
 
