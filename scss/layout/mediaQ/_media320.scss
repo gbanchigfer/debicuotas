@@ -1,0 +1,40 @@
+@media (max-width: 480px) {
+
+    .paso{
+        img{
+            @include imgResponsive;
+        }       
+    }
+
+    header {
+        height: 100vh;
+        .barra{
+            position: absolute;
+        
+            .navbar {
+                display: flex;
+                flex-direction: column;
+                font-size: 10px;
+            }
+            .hero {
+                font-size: 20px;
+            }
+        }
+        .TituloHero {
+            padding-top: 75%;
+        }
+        
+    }
+
+    .formulario{
+        padding: 2.5rem;
+    }
+
+    .marcas {
+        grid-template: repeat(8, 6.25rem) / 1fr;
+    }
+
+    footer{
+        @include imgResponsive;
+    }
+}

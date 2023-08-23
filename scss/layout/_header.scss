@@ -1,0 +1,54 @@
+header{
+    background-image: url(../assets/Rectangle1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    h1{
+        padding: 1.25rem;
+        a{
+            text-decoration: none;
+            color: $color-fuente;
+        }
+    }
+    
+    .barra{
+        @include flex(none, space-between, center, none);
+        height: 4.375rem;
+        width: 100%;
+        background-color: $fondo-color;
+        position: fixed;
+        box-shadow: 0px 5px 10px grey;
+        .hero{
+            font-family: $fuente2;
+            font-size: 2.5rem;
+        }
+        .navbar{
+            list-style: none;
+            display: flex;
+            gap: 1.5625rem;
+            align-items: center;
+            padding-right: 1.5625rem;
+            li {
+                a{
+                    text-decoration: none;
+                    color: $color-fuente;
+                    font-family: $fuente1;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }       
+        }
+    }
+    .TituloHero{
+        align-self: center;
+        font-family: $fuente1;
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-top: 3rem;
+    }        
+}

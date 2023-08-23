@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+       
+
+    header {
+        height: 15.625rem;
+        .TituloHero {
+            font-size: 1.25rem;
+            margin-top: 4rem;
+        }
+        .barra {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            .navbar {
+                padding-bottom: .625rem;
+            }
+        } 
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .primerospasos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .marcas {
+        grid-template: repeat(3, 6.25rem) / repeat(2, 20rem);
+    }
+
+    .garmin{
+        img {
+            display: none;
+        }
+    }
+}

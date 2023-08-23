@@ -1,0 +1,49 @@
+.primerospasos{
+    @include grid(repeat(2,40%), repeat(2,28.125rem), center, none);
+    .paso{
+        @include flex(column, center, center, none)
+    }
+    .img{
+        padding: 1.25rem;
+    }
+}
+.section2 {
+    padding-top: 3.125rem;
+    h2{
+        background-color: $fondo-color;
+    }
+    p{
+        padding-top: 1.875rem;
+    }
+    .app-img{
+        padding: 1.875rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+.marcas{
+    @include grid(repeat(3,15.625rem), repeat(3, 15.625rem), center, center);
+    
+    div{
+        @include flex(row, center, center, none);
+             
+    }
+}
+
+.descarga{
+    @include flex(column, none, center, none);
+}
+.appTienda{
+    padding: .9375rem;    
+}
+.ayuda{
+    background-color: $fondo-color;
+}
+.comoEmpezar {
+    h3{
+    text-align: center;
+    }
+    .paso{
+        @include flex(column, center, center, none);
+    }
+}

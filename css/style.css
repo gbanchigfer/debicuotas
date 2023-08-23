@@ -1,479 +1,229 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Quicksand:wght@300;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;500&family=Quicksand:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Quicksand:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;500&family=Quicksand:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
+.formulario {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  padding: 5rem; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+.accordion {
+  padding: 1.25rem; }
 
-header{
-    background-image: url(../assets/Rectangle\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 100%;
+.navbar button {
+  padding: 10px;
+  border-radius: .625rem;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px grey;
+  font-size: 14px; }
+
+.paso button {
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px; }
+  .paso button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black; }
+
+h2 {
+  text-align: center;
+  padding: 1.875rem;
+  font-family: Quicksand;
+  font-size: 2.5rem; }
+
+h3 {
+  padding: 1.25rem;
+  font-family: Quicksand;
+  font-size: 1.5625rem; }
+
+p {
+  font-family: Quicksand;
+  font-size: 24px;
+  text-align: center; }
+
+body {
+  background-color: aquamarine; }
+
+header {
+  background-image: url(../assets/Rectangle1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  header h1 {
+    padding: 1.25rem; }
+    header h1 a {
+      text-decoration: none;
+      color: black; }
+  header .barra {
     display: flex;
-    justify-content: center;
-        
-}
-body{
-    background-color: aquamarine;
-}
-
-.barra{
-    display: flex;
+    flex-direction: none;
     justify-content: space-between;
+    align-items: center;
+    gap: none;
     height: 4.375rem;
     width: 100%;
     background-color: lightblue;
-    align-items: center;
     position: fixed;
-    box-shadow: 0px 5px 10px grey;
-}
-
-.navbar{
-    list-style: none;
-    display: flex;
-    gap: 1.5625rem;
-    align-items: center;
-    padding-right: 1.5625rem;
-    
-}
-
-.navbar li a{
-    text-decoration: none;
-    color: black;
-    font-family: Quicksand;
-}
-
-.navbar a:hover { 
-    color: white;
-}
-
-.navbar button {
-    padding: 10px;
-    border-radius: .625rem;
-    font-weight: bold;
-    box-shadow: 5px 5px 5px grey;
-    font-size: 14px;
-}
-
-
-header h1{
-    
-    padding: 20px;
-}
-
-header h1 a {
-    text-decoration: none;
-    color: black;
-}
-
-.TituloHero {
+    box-shadow: 0px 5px 10px grey; }
+    header .barra .hero {
+      font-family: Lobster;
+      font-size: 2.5rem; }
+    header .barra .navbar {
+      list-style: none;
+      display: flex;
+      gap: 1.5625rem;
+      align-items: center;
+      padding-right: 1.5625rem; }
+      header .barra .navbar li a {
+        text-decoration: none;
+        color: black;
+        font-family: Quicksand; }
+        header .barra .navbar li a:hover {
+          color: white; }
+  header .TituloHero {
     align-self: center;
     font-family: Quicksand;
     font-weight: bold;
-    font-size: 40px;
-    padding-top: 3rem;
-}
-
-.hero{
-    font-family: Lobster;
     font-size: 2.5rem;
-}
+    padding-top: 3rem; }
 
-h2{
-    text-align: center;
-    padding: 1.875rem;
-    font-family: Quicksand;
-    font-size: 2.5rem;
-    
-}
+.primerospasos {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-template-rows: repeat(2, 28.125rem);
+  justify-content: center;
+  align-content: none; }
+  .primerospasos .paso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: none; }
+  .primerospasos .img {
+    padding: 1.25rem; }
 
-.section2 h2{
-    background-color: lightblue;
-}
-
-.section2{
-    padding-top: 3.125rem;
-    
-}
-
-.section2 p{
-    padding-top: 1.875rem;
-}
-
-.app-img{
+.section2 {
+  padding-top: 3.125rem; }
+  .section2 h2 {
+    background-color: lightblue; }
+  .section2 p {
+    padding-top: 1.875rem; }
+  .section2 .app-img {
     padding: 1.875rem;
     display: flex;
-    justify-content: center;
-}
+    justify-content: center; }
 
-.primerospasos{
-    display: grid;
-    grid-template: repeat(2, 28.125rem) / repeat(2,40%);
-    justify-content: center;
-}
-
-.paso{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-h3{
-    padding: 1.25rem;
-    font-family: Quicksand;
-    font-size: 1.5625rem;
-}
-
-.primerospasos img {
-    padding: 1.25rem;
-}
-
-p{
-    font-family: Quicksand;
-    font-size: 24px;
-    text-align: center;
-}
-
-.marcas{
-    display: grid;
-    grid-template: repeat(3, 15.625rem) / repeat(3, 15.625rem);
-    justify-content: center;
-    padding: 1.5625rem;
-    align-items: center;
-    
-
-}
-
-.marcas div{
-    display: flex;
-    justify-content: center;
-}
-
-footer{
-    background-color: bisque;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    width: 100%;
-    
-}
-
-footer img{
-    padding: 20px;
-}
-
-footer a {
-    text-decoration: none;
-    
-}
-
-.formulario {
-    display: flex;
-    justify-content: center;
-    background-color: lightblue;
-    padding: 3.125rem;
-}
-
-
-
-.comoEmpezar h3{
-    text-align: center;
-}
-
-.pasos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.pasos button{
-    padding: 1.25rem;
-    background-color: lightblue;
-    font-family: Quicksand;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 15px;
-    margin: 1.25rem;
-}
-.pasos button a{
-    text-decoration: none;
-    color: black;
-}
-
-.pasos button a:hover{
-    color: white;
-}
-
-.descarga{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.appTienda{
-    padding: .9375rem;    
-}
-
-/**APLICO GRID EN LA PAGINA CONTACTO**/
-
-.grid-contact{
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template: 1fr 9 fr 1 fr / repeat(3, 1fr);
-}
-
-.ayuda{
-    background-color: lightblue;
-}
-
-.accordion {
-    padding: 1.25rem;
-}
-
-
-/**.sectionTop {
+.marcas {
+  display: grid;
+  grid-template-columns: repeat(3, 15.625rem);
+  grid-template-rows: repeat(3, 15.625rem);
+  justify-content: center;
+  align-content: center; }
+  .marcas div {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-
-header h1{
-    
-    letter-spacing: 0.25rem;
-    padding: 20px;   
-         
-}
-
-header h1 a{
-    text-decoration: none;
-    color: black;
-    font-family: Quicksand;
-    font-size: 2.5rem;
-    
-}
-
-.navbar {
-    list-style: none;
-    position: fixed;
-    right: 0;
-    display: flex;
     justify-content: center;
-    gap: 1.875rem;
-    padding-right: 1.875rem;
-    padding-top: 1.875rem;
     align-items: center;
-}
+    gap: none; }
 
-.navbar a {
-    font-family: Quicksand;
-    font-size: 1.25rem;
-    text-decoration: none;
-    color: black;
-}
+.descarga {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: center;
+  gap: none; }
 
-.navbar a:hover { 
-    color: white;
-    
-  }
+.appTienda {
+  padding: .9375rem; }
 
-.navbar button {
-    padding: 10px;
-    border-radius: .625rem;
-    font-weight: bold;
-    box-shadow: 5px 5px 5px grey;
-}
+.ayuda {
+  background-color: lightblue; }
 
+.comoEmpezar h3 {
+  text-align: center; }
 
-header h2 {
-    
-    
-    text-align: center;
-    font-family: Quicksand;
-    font-weight: bold;
-    font-size: 2.5rem;
-}
+.comoEmpezar .paso {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: none; }
 
 footer {
-    background-color: lightblue;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 0;
-   
-}
+  display: flex;
+  flex-direction: none;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  background-color: bisque;
+  width: 100%; }
+  footer img {
+    padding: 20px; }
+  footer a {
+    text-decoration: none; }
 
-footer .redes a img{
-    height: 1.875rem;
-    width: 1.875rem;
-        
-}**/
-.paso button{
-    padding: 5px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    
-}
-
-.paso button a{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-@media(max-width: 1024px) {
-    header {
-        font-size: 12px;
-        
-    }
-
-    
-
-    
-
-    
-    .accordion-item button{
-        
-        position: static;
-    }
-
-    
-
-}
+@media (max-width: 1024px) {
+  header {
+    font-size: 12px; }
+  .accordion-item button {
+    position: static; } }
 
 @media (max-width: 768px) {
-    .barra {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-
-
-    }
-
-    .navbar {
-        padding-bottom: .625rem;
-    }
-
-    .TituloHero {
-        font-size: 1.25rem;
-        margin-top: 4rem;
-
-
-    }
-
-    header {
-        height: 15.625rem;
-    }
-
-    h2 {
-        font-size: 1.25rem;
-    }
-
-    h3 {
-        font-size: 1rem;
-    }
-
-    .primerospasos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    
-
-    .marcas {
-        grid-template: repeat(3, 6.25rem) / repeat(2, 20rem);
-
-    }
-
-    .garmin img {
-        display: none;
-    }
-
-
-}
+  header {
+    height: 15.625rem; }
+    header .TituloHero {
+      font-size: 1.25rem;
+      margin-top: 4rem; }
+    header .barra {
+      display: flex;
+      flex-direction: column;
+      height: auto; }
+      header .barra .navbar {
+        padding-bottom: .625rem; }
+  h2 {
+    font-size: 1.25rem; }
+  h3 {
+    font-size: 1rem; }
+  .primerospasos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .marcas {
+    grid-template: repeat(3, 6.25rem)/repeat(2, 20rem); }
+  .garmin img {
+    display: none; } }
 
 @media (max-width: 480px) {
-   
-    .navbar {
-        
+  .paso img {
+    max-width: 100%;
+    height: auto;
+    width: auto/9; }
+  header {
+    height: 100vh; }
+    header .barra {
+      position: absolute; }
+      header .barra .navbar {
         display: flex;
         flex-direction: column;
-        font-size: 10px;
-        
-        
-    }
-
- 
-    .hero{
-        font-size: 20px;
-        
-    }
-
-    .barra{
-        position: absolute;
-    }
-     .paso img {
-    
-        max-width: 100%;
-        height: auto;
-        width: auto/9;
-            
-    
-    }
-
-    .TituloHero{
-        padding-top: 75%;
-    }
-
-    header{
-        height: 100vh;
-
-    }
-    
-            
-    main img{
-        max-width: 100%;
-        height: auto;
-        width: auto/9;
-    }
-
-    .navbar button {
-        font-size: 10px;
-        padding: 5px;
-    }
-
-    .marcas {
-        grid-template: repeat(8, 6.25rem) / 1fr;
-    }
-
-    
-
-   
-
-    footer img{
-        max-width: 100%;
-        height: auto;
-        width: auto/9;
-    }
-
-    
-
-}
-
-
-
+        font-size: 10px; }
+      header .barra .hero {
+        font-size: 20px; }
+    header .TituloHero {
+      padding-top: 75%; }
+  .formulario {
+    padding: 2.5rem; }
+  .marcas {
+    grid-template: repeat(8, 6.25rem)/1fr; }
+  footer {
+    max-width: 100%;
+    height: auto;
+    width: auto/9; } }

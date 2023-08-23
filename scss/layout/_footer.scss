@@ -1,0 +1,11 @@
+footer{
+    @include flex(none, center, center, none);
+    background-color: bisque;
+    width: 100%;
+    img{
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+}
