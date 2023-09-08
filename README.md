@@ -3,8 +3,9 @@
 ## Proyecto CODER
 
 ### Herramientas usadas
-- HTML5
+- HTML5 
 - CSS3
+- SASS
 - BOOTSTRAP
 - GIT
 - GITHUB
