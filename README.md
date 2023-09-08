@@ -3,12 +3,18 @@
 ## Proyecto CODER
 
 ### Herramientas usadas
-- HTML5 
-- CSS3
-- SASS
-- BOOTSTRAP
-- GIT
-- GITHUB
+
+- HTML5 (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-html-5-48.png)
+
+- CSS3 (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-css-48.png)
+
+- SASS (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-sass-avatar-48.png)
+
+- BOOTSTRAP (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-oreja-48.png)
+
+- GIT (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-git-48.png)
+
+- GITHUB (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-github-48.png)
 
 #### Landing page Debicuotas
 Debicuotas es una app para celulares que ofrece a los usuarios la oportunidad de adquirir productos y servicios de manera rápida y conveniente, sin tener que pagar la cantidad total de inmediato. 
