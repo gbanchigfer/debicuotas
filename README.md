@@ -4,17 +4,17 @@
 
 ### Herramientas usadas
 
-- HTML5 (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-html-5-48.png)
+- HTML5 [![](https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-html-5-48.png?raw=true)](https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-html-5-48.png?raw=truehttp://)
 
-- CSS3 (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-css-48.png)
+- CSS3 [![](https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-css-48.png?raw=true)](http://https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-css-48.png?raw=true)
 
-- SASS (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-sass-avatar-48.png)
+- SASS [![](https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-sass-avatar-48.png?raw=true)](http://https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-sass-avatar-48.png?raw=true)
 
-- BOOTSTRAP (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-oreja-48.png)
+- BOOTSTRAP [![](https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-oreja-48.png?raw=true)](http://https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-oreja-48.png?raw=true)
 
-- GIT (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-git-48.png)
+- GIT [![](https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-git-48.png?raw=true)](https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-git-48.png?raw=truehttp://)
 
-- GITHUB (https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-github-48.png)
+- GITHUB [![](https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-github-48.png?raw=true)](http://https://github.com/gbanchigfer/debicuotas/blob/master/assets/logos-readme/icons8-github-48.png?raw=true)
 
 #### Landing page Debicuotas
 Debicuotas es una app para celulares que ofrece a los usuarios la oportunidad de adquirir productos y servicios de manera rápida y conveniente, sin tener que pagar la cantidad total de inmediato. 
