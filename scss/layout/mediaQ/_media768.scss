@@ -13,8 +13,21 @@
             height: auto;
             .navbar {
                 padding-bottom: .625rem;
+                font-size: 14px;
             }
         } 
+    }
+
+    body {
+        .pagina-error {
+            p {
+                font-size: 1rem;
+            }
+    
+            .img404 {
+                padding-bottom: 1.875rem;
+            }
+        }
     }
 
     h2 {
